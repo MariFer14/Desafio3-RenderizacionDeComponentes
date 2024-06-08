@@ -5,9 +5,9 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 import Listado from "./componentes/Listado";
 import Formulario from "./componentes/Formulario";
-import { BaseColaboradores } from "./utils/BaseColaboradores";
-import Alert from "./componentes/Alert";
-import Buscador from "./componentes/Buscador";
+import {BaseColaboradores} from "../src/assets/components/utils/BaseColaboradores"
+import Alert from "../src/assets/components/Alert";
+import Buscador from "../src/assets/components/Buscador";
 
 function App() {
   const [colaboradores, setColaboradores] = useState(BaseColaboradores);

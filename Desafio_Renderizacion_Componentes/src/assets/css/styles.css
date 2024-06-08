@@ -1,0 +1,15 @@
+.boton{
+    color: #ffffff;
+    background-color: #6610f2;
+    transition: all .3s;
+}
+
+.boton:hover{
+    border: #6610f2 1px solid;
+    background-color: #ffffff;
+    color: #6610f2;
+}
+
+.cabecera{
+    background-color: #6610f2;
+}

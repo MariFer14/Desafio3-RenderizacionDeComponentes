@@ -40,3 +40,21 @@
 .read-the-docs {
   color: #888;
 }
+
+/* Estilos del formulario */
+
+.formulario {
+  margin-left: 7rem;
+}
+
+@media (max-width: 999px) {
+  .container {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .formulario {
+    margin-left: 0;
+    margin-top: 40px;
+  }
+}
